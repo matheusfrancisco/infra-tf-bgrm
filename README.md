@@ -37,7 +37,7 @@ It can build the next infrastructure:
 After building the infrastructure you can try to connect to you `EC2 instance` via SSH:
 
 1. `cd ./src/main`
-2. `ssh -i ./provision/access/api-ec2-key ubuntu@[EC2 public IP]`
+2. `ssh -i ./provision/access/api-ec2-key ubuntu@ec2-54-85-50-240.compute-1.amazonaws.com `
 
 To check HTTP access you can install `apache2` on your EC2 instance:
 
